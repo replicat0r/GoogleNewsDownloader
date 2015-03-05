@@ -59,3 +59,12 @@
             background: #3EA0E7;
             color: white;
         }
+
+            .add-more,
+        .remove-more {
+            display: none;
+        }
+
+        .search input[type="radio"] {
+            margin: 6px;
+        }

@@ -1,5 +1,4 @@
-
-    <div class="container">
+ <div class="container">
         <div class="jumbotron">
             <h1>Google News Downloader </h1>
 
@@ -8,13 +7,30 @@
         </div>
         <hr/>
         <h2>Step 1. Search for news related to your company:</h2>
+        <div class="row search">
+            <h4 class="col-sm-12">Geographic Search Criterias:</h4>
+            <div class="col-sm-12">
+                <label for="cities_CA">
+                    <input type="radio" id="cities_CA" name="theme" value="CA" checked="checked" />Top CA Cities</label>
+                <label for="cities_US">
+                    <input type="radio" id="cities_US" name="theme" value="US" />Top US Cities</label>
+
+                <span class="btn btn-info add-more">Add 10 more US Cities</span>
+                <span class="btn btn-danger remove-more">Remove 10 US Cities</span>
+
+                <h5 style="color:#27ae60">Current Searching Articles within:</h5><p class="current_cities"></p>
+            </div>
+        </div>
+
+
         <div class="row margin">
+            <div class="col-sm-12">
             <span class="col-lg-2"></span>
 
-            <input id="news-search" type="text" class="input-lg col-lg-7" placeholder="Google News Search">
+            <input id="news-search" type="text" class="input-lg col-lg-7 col-sm-8" placeholder="Google News Search">
             <button id="search-button" class="btn btn-lg btn-success">
                 Search
-            </button>
+            </button></div>
         </div>
         <hr/>
         <h2>Step 2. Download results</h2>
@@ -41,7 +57,7 @@
 
             </div>
         </div>
-        <h2>Step 3. Upload to <a href="https://www.mturk.com/mturk/welcome">Mechanical Turk</a> to get each reporter's email address</h2>
+        <h2>Step 3. Upload to <a href="http://wp.me/p2pmCq-gA#step3">Mechanical Turk</a> to get each reporter's email address</h2>
         <br>
         <br>
         <br>
