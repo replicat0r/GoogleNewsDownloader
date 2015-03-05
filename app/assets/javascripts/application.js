@@ -13,4 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require bootstrap-sprockets
+//= require progressbar
+//= require table2csv
+
+//= require main
